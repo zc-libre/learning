@@ -1,0 +1,9 @@
+spring:
+  rabbitmq:
+    host: 123.57.153.14
+    port: 5672
+    virtual-host: my_vhost
+    username: amdin
+    password: amdin
+    #消息发送到队列确认
+    publisher-returns: true
