@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="63ec1058-7847-457c-984e-d6906d6e46e2" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="C:\Users\zhao.cheng\repo" />
+        <option name="mavenHome" value="C:\Users\zhao.cheng\.m2\wrapper\dists\apache-maven-3.6.3-bin\1iopthnavndlasol9gbrbg6bf2\apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\development\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1hzkET1xEYjLp1IDmDs22jbq9T3" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/zc/es" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\code\springboot-es-demo\src\main\java\com\zc\es" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.EsDemoApplicationTests.contextLoads">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EsDemoApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-es-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zc.es.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zc.es" />
+      <option name="MAIN_CLASS_NAME" value="com.zc.es.EsDemoApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EsDemoApplicationTests.delete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-es-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zc.es.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zc.es" />
+      <option name="MAIN_CLASS_NAME" value="com.zc.es.EsDemoApplicationTests" />
+      <option name="METHOD_NAME" value="delete" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootEsDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-es-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zc.es.EsDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.EsDemoApplicationTests.contextLoads" />
+        <item itemvalue="JUnit.EsDemoApplicationTests.delete" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="63ec1058-7847-457c-984e-d6906d6e46e2" name="Default Changelist" comment="" />
+      <created>1601021198465</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601021198465</updated>
+      <workItem from="1601021200431" duration="2977000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="613" y="206" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1601021315613">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="613" y="206" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601021315613" />
+    <state x="853" y="216" key="FileChooserDialogImpl" timestamp="1601021240537">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="853" y="216" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1601021240537" />
+    <state width="1867" height="386" key="GridCell.Tab.0.bottom" timestamp="1601023061024">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="386" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601023061024" />
+    <state width="1867" height="386" key="GridCell.Tab.0.center" timestamp="1601023061024">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="386" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601023061024" />
+    <state width="1867" height="386" key="GridCell.Tab.0.left" timestamp="1601023061024">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="386" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601023061024" />
+    <state width="1867" height="386" key="GridCell.Tab.0.right" timestamp="1601023061024">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="386" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601023061024" />
+    <state x="344" y="78" width="1565" height="883" key="SettingsEditor" timestamp="1601021243102">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="344" y="78" width="1565" height="883" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1601021243102" />
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1601022502372">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1601022502372" />
+  </component>
+</project>
