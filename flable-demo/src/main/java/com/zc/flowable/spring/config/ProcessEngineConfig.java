@@ -42,9 +42,9 @@ public class ProcessEngineConfig {
                     // 发邮件的主机地址，先用 QQ 邮箱
                     .setMailServerHost("smtp.qq.com")
                     // POP3/SMTP服务的授权码
-                    .setMailServerPassword("xvhkwdvsnuvgbgdf")
+                    .setMailServerPassword(".........")
                     // 默认发件人
-                    .setMailServerDefaultFrom("504879189@qq.com")
+                    .setMailServerDefaultFrom(".........")
                     // 设置发件人用户名
                     .setMailServerUsername("管理员")
                     // 解决流程图乱码
