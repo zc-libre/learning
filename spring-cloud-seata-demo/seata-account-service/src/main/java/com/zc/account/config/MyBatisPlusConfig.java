@@ -6,7 +6,6 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 /**
  * @author zhao.cheng
- * @date 2020/12/15 11:53
  */
 @MapperScan("com.zc.account.mapper")
 @Configuration

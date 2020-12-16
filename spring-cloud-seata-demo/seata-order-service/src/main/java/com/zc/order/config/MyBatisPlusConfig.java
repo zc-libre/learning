@@ -18,5 +18,4 @@ import javax.sql.DataSource;
 @EnableTransactionManagement
 public class MyBatisPlusConfig {
 
-
 }

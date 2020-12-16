@@ -5,6 +5,7 @@ import com.zc.order.entity.Order;
 import com.zc.order.feign.AccountService;
 import com.zc.order.mapper.OrderMapper;
 import com.zc.storage.service.StorageService;
+import io.seata.core.context.RootContext;
 import io.seata.spring.annotation.GlobalTransactional;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -26,13 +27,11 @@ public class OrderServiceImpl implements OrderService {
     private final OrderMapper orderMapper;
     private final AccountService accountService;
 
-    private final RestTemplate restTemplate;
 
     /**
      * 创建订单->调用库存服务扣减库存->调用账户服务扣减账户余额->修改订单状态
      */
     @Override
-    @Transactional(rollbackFor = Exception.class)
     @GlobalTransactional(rollbackFor = Exception.class)
     public void create(Order order) {
         log.info("------->下单开始");
@@ -42,8 +41,9 @@ public class OrderServiceImpl implements OrderService {
         storageService.decrease(order.getProductId());
         log.info("------->order-service中扣减库存结束:{}",order.getId());
 */
-        orderMapper.insert(order);
 
+        log.info("xid: {}", RootContext.getXID());
+        orderMapper.insert(order);
 
         //远程调用账户服务扣减余额
         log.info("------->order-service中扣减余额开始");

@@ -1,5 +1,6 @@
 package com.zc.storage.config;
 
+import io.seata.spring.annotation.datasource.EnableAutoDataSourceProxy;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
@@ -10,7 +11,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
  */
 @MapperScan("com.zc.storage.mapper")
 @Configuration
-@EnableTransactionManagement
+@EnableAutoDataSourceProxy
 public class MyBatisPlusConfig {
 
 
