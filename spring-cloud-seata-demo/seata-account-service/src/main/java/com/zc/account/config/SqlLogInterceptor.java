@@ -126,11 +126,11 @@ public class SqlLogInterceptor implements Interceptor {
 		// 打印 sql
 		System.err.println(
 				StrUtil.format(
-						"\n==============  Sql Start  ==============" +
+						"\n" +
 								"\nExecute ID  ：{}" +
 								"\nExecute SQL ：{}" +
 								"\nExecute Time：{} ms" +
-								"\n==============  Sql  End   ==============\n",
+								"\n",
 						ms.getId(), originalSql, timing));
 		return result;
 	}

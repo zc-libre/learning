@@ -19,7 +19,6 @@ import io.seata.rm.datasource.DataSourceProxy;
  * @author zhao.cheng
  */
 @Configuration
-@EnableAutoDataSourceProxy
 public class SeataAutoConfig {
 }
 

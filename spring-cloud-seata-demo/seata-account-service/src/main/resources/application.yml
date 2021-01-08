@@ -8,7 +8,7 @@ spring:
     type: com.zaxxer.hikari.HikariDataSource
     username: root
     password: 123456
-    url: jdbc:mysql://localhost:3306/seata_account?useUnicode=true&characterEncoding=utf8&allowMultiQueries=true&useSSL=false
+    url: jdbc:mysql://localhost:3306/seata_account?useUnicode=true&characterEncoding=utf8&allowMultiQueries=true&useSSL=false&rewriteBatchedStatements=true
 
 mybatis-plus:
   type-aliases-package: com.zc.account.entity
@@ -17,3 +17,19 @@ mybatis-plus:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
 seata:
   tx-service-group: spang_tx_group
+  service:
+    vgroup-mapping:
+      spang_tx_group: default
+    grouplist:
+      default: 127.0.0.1:8091
+    enable-degrade: false
+    disable-global-transaction: false
+  registry:
+    type: nacos
+    nacos:
+      application: seata-server
+      server-addr: 127.0.0.1:8848
+      group: "SEATA_GROUP"
+  config:
+    nacos:
+      server-addr: 127.0.0.1:8848

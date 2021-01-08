@@ -7,7 +7,6 @@ import io.seata.core.context.RootContext;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
 
 import java.math.BigDecimal;
 
@@ -25,11 +24,14 @@ public class AccountServiceImpl implements AccountService {
     @Override
     public void decrease(Long userId, BigDecimal money) {
         log.info("xid: {}", RootContext.getXID());
-        Account account = accountMapper.selectOne(Wrappers.<Account>lambdaQuery().eq(Account::getUserId, userId));
 
+        Account account = accountMapper.selectOne(Wrappers.<Account>lambdaQuery().eq(Account::getUserId, userId));
         account.setUsed(account.getUsed().add(money));
         account.setResidue(account.getResidue().subtract(money));
-        int i = 10/ 0;
+
+        if (userId != -1) {
+            throw new RuntimeException("模拟业务异常, userId: " + userId);
+        }
         accountMapper.updateById(account);
 
     }
