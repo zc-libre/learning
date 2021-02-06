@@ -10,8 +10,8 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 public class Test {
 
         public static void main(String[] args) {
-            ApplicationContext applicationContext=new AnnotationConfigApplicationContext("com.zc.spring");
-            Account accountA=new Account();
+            ApplicationContext applicationContext = new AnnotationConfigApplicationContext("com.zc.spring");
+            Account accountA = new Account();
             System.out.println(accountA);
         }
     }
