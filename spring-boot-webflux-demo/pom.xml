@@ -11,7 +11,7 @@
     <groupId>com.zc</groupId>
     <artifactId>springboot-webflux-demo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>springboot-webflux-demo</name>
+    <name>spring-boot-webflux-demo</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
