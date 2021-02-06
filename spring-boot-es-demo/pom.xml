@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.zc</groupId>
-    <artifactId>springboot-es-demo</artifactId>
+    <artifactId>spring-boot-es-demo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>springboot-es-demo</name>
     <description>Demo project for Spring Boot</description>

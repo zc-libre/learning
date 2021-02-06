@@ -3,4 +3,4 @@ spring:
     elasticsearch:
       client:
         reactive:
-          endpoints: 47.114.47.143:9200
+          endpoints: localhost:9200
