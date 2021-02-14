@@ -13,8 +13,8 @@ public class ThreadUtils {
 
    private static final ThreadPoolExecutor EXECUTOR = new ThreadPoolExecutor(2,
             5,
-            10, TimeUnit.MINUTES,
-            new LinkedBlockingQueue<>(),
+            10, TimeUnit.SECONDS,
+            new LinkedBlockingQueue<>(10),
             Executors.defaultThreadFactory(),
             new ThreadPoolExecutor.CallerRunsPolicy());
 
