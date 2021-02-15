@@ -26,12 +26,10 @@ public class NioFileCopy {
             if (read == -1) {
                 break;
             }
-
             byteBuffer.flip();
             int write = fileOutputChannel.write(byteBuffer);
         }
         fileInputStream.close();
         fileOutputChannel.close();
-
     }
 }

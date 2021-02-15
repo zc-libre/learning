@@ -1,5 +1,7 @@
 package com.libre.netty.nio;
 
+import cn.hutool.core.io.NioUtil;
+
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.RandomAccessFile;
@@ -18,6 +20,7 @@ public class MappedBufferTest {
         MappedByteBuffer mappedByteBuffer = channel.map(FileChannel.MapMode.READ_WRITE, 0, 5);
         mappedByteBuffer.put(0, (byte) 'A');
         mappedByteBuffer.put(3, (byte) 'B');
+
 
         channel.close();
         randomAccessFile.close();
