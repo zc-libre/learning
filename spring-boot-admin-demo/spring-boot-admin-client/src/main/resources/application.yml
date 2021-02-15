@@ -1,0 +1,21 @@
+server:
+  port: 9000
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+spring:
+  boot:
+    admin:
+      client:
+        url: http://localhost:7000
+
+  application:
+    name: spring-boot-admin-client
+logging:
+  file:
+    name: "logs/app.log"
