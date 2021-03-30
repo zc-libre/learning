@@ -38,7 +38,6 @@ public class NettyTimeClient {
     }
 
     public static void main(String[] args) throws Exception {
-
         new NettyTimeClient().connect(8080, "127.0.0.1");
     }
 }

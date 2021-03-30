@@ -1,0 +1,11 @@
+server:
+  port: 8080
+
+libre:
+  redis:
+    rate-limiter:
+      enabled: true
+    serializer-type: protostuff
+spring:
+  application:
+    name: security
