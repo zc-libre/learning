@@ -1,0 +1,9 @@
+spring:
+  ldap:
+    urls: ldap://192.168.30.12:389
+    base: OU=spangusers,DC=spangchem,DC=com
+    username: zhao.cheng@spangchem.com
+    password: 894659968zc..
+    template:
+      ignore-partial-result-exception: true
+
