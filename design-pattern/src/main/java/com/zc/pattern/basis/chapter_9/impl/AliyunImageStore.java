@@ -1,6 +1,6 @@
-package com.zc.pattern.demo_9.impl;
+package com.zc.pattern.basis.chapter_9.impl;
 
-import com.zc.pattern.demo_9.AbstractCloudImageStore;
+import com.zc.pattern.basis.chapter_9.AbstractCloudImageStore;
 
 import java.awt.*;
 

@@ -1,6 +1,6 @@
-package com.zc.pattern.demo_9;
+package com.zc.pattern.basis.chapter_9;
 
-import com.zc.pattern.demo_9.service.ImageStore;
+import com.zc.pattern.basis.chapter_9.service.ImageStore;
 
 /**
  * @author zhao.cheng

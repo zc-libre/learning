@@ -1,9 +1,9 @@
-package com.zc.pattern.demo_10.demo1;
+package com.zc.pattern.basis.chapter_10.demo1;
 
-import com.zc.pattern.demo_10.demo1.ability.EggLayAbility;
-import com.zc.pattern.demo_10.demo1.ability.TweetAbility;
-import com.zc.pattern.demo_10.demo1.able.EggLayable;
-import com.zc.pattern.demo_10.demo1.able.Tweetable;
+import com.zc.pattern.basis.chapter_10.demo1.ability.EggLayAbility;
+import com.zc.pattern.basis.chapter_10.demo1.ability.TweetAbility;
+import com.zc.pattern.basis.chapter_10.demo1.able.EggLayable;
+import com.zc.pattern.basis.chapter_10.demo1.able.Tweetable;
 
 /**
  * @author zhao.cheng

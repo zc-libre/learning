@@ -1,4 +1,4 @@
-package com.zc.pattern.demo_11;
+package com.zc.pattern.basis.chapter_11;
 
 /**
  * @author zhao.cheng

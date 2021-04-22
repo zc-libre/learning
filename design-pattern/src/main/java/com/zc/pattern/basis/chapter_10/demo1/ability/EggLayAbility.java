@@ -1,6 +1,6 @@
-package com.zc.pattern.demo_10.demo1.ability;
+package com.zc.pattern.basis.chapter_10.demo1.ability;
 
-import com.zc.pattern.demo_10.demo1.able.EggLayable;
+import com.zc.pattern.basis.chapter_10.demo1.able.EggLayable;
 
 /**
  * @author zhao.cheng
