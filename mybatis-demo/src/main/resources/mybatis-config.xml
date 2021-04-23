@@ -16,13 +16,13 @@
             <transactionManager type="JDBC"/>
             <dataSource type="POOLED">
                 <property name="driver" value="com.mysql.cj.jdbc.Driver"/>
-                <property name="url" value="jdbc:mysql://localhost:3306/spang_boot_admin"/>
+                <property name="url" value="jdbc:mysql://localhost:3306/mybatis"/>
                 <property name="username" value="root"/>
                 <property name="password" value="123456"/>
             </dataSource>
         </environment>
     </environments>
     <mappers>
-        <mapper resource="com/zc/mybatis/mapper/roleMapper.xml"/>
+        <mapper resource="com/zc/mybatis/mapper/UserMapper.xml"/>
     </mappers>
 </configuration>

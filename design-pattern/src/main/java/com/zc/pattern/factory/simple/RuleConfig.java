@@ -6,7 +6,6 @@ import java.util.Objects;
  * @author zhao.cheng
  * @date 2020/8/31 12:38
  */
-
 public class RuleConfig {
 
     private String type;

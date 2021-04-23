@@ -9,6 +9,7 @@ import java.util.concurrent.atomic.AtomicLong;
 public class IdGeneratorInner {
 
     private final AtomicLong id = new AtomicLong(0);
+
     private IdGeneratorInner(){};
 
     private static class SingletonHolder{
